@@ -7,7 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Genre {
-    private String genreId;
-    private String genreName;
+public class Isnb {
+    public String isnbId;
+    public Integer numberOrders;
+    public Long totalScores;
+    public Long numberScores;
+    public boolean digitalVersion;
 }
