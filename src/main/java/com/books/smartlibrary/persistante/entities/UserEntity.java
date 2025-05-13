@@ -29,8 +29,6 @@ public class UserEntity {
     @OneToMany
     List<OrderEntity> orders;
 
-
-
     public UserEntity(String id, String name, String lastName, RoleEntity role, Gender gender) {
         this.id = id;
         this.name = name;
